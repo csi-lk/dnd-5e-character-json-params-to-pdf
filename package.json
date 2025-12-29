@@ -1,0 +1,19 @@
+{
+  "name": "dnd-character-sheet-generator",
+  "version": "1.0.0",
+  "description": "Generate DnD character sheet PDFs from JSON data",
+  "type": "module",
+  "main": "src/generate-character-sheet.ts",
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "scripts": {
+    "generate": "node --experimental-strip-types src/generate-character-sheet.ts"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5"
+  }
+}
